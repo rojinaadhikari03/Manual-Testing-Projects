@@ -1,6 +1,6 @@
-# 🧪 SauceDemo - Manual Testing Project
+#  SauceDemo - Manual Testing Project
 
-## 📋 Project Overview
+##  Project Overview
 
 | Field | Details |
 |:---|:---|
