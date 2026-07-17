@@ -12,7 +12,7 @@
 | **Testing Phase** | Functional Testing, UI Testing, Responsive Testing, Cross-Browser Testing, Bug Reporting, Test Execution |
 | **Start Date** | July 14, 2026 |
 | **End Date** | July 16, 2026 |
-| **Executed By** | QA Team |
+| **Executed By** | Rojina Adhikari |
 | **Current Status** | ✅ **PASSED** |
 | **Total Test Cases** | 45 |
 | **Test Cases Executed** | 45 (100%) |
