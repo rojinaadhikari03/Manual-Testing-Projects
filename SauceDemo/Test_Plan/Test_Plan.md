@@ -367,7 +367,7 @@ The following areas are **NOT** covered in this testing:
 
 ---
 
-## 📊 Test Plan Summary
+##  Test Plan Summary
 
 | Category | Details |
 |:---|:---|
@@ -381,7 +381,7 @@ The following areas are **NOT** covered in this testing:
 
 ---
 
-## 🔗 Related Documents
+## Related Documents
 
 | Document | Link |
 |:---|:---|
