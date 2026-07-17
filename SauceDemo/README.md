@@ -1,7 +1,6 @@
-#  SauceDemo - Manual Testing Project
+# 🧪 SauceDemo - Manual Testing Project
 
-
-## Project Overview
+## 📋 Project Overview
 
 | Field | Details |
 |:---|:---|
@@ -13,12 +12,12 @@
 | **Start Date** | July 14, 2026 |
 | **End Date** | July 16, 2026 |
 | **Executed By** | Rojina Adhikari |
-| **Current Status** | ✅ **PASSED** |
+| **Current Status** |  PASSED |
 | **Total Test Cases** | 45 |
 | **Test Cases Executed** | 45 (100%) |
 | **Passed** | 45 |
 | **Failed** | 0 |
-| **Pass Rate** | **100%** |
+| **Pass Rate** | 100% |
 | **Bugs Found** | 7 |
 | **Critical Bugs** | 0 |
 | **High Priority Bugs** | 2 |
@@ -27,20 +26,21 @@
 
 ---
 
-# Project Objective
+## 🎯 Project Objective
 
 The objective of this project is to perform **comprehensive manual testing** of the SauceDemo web application to ensure:
 
--  All login functionalities work as expected
--  UI elements are displayed correctly
-- Error handling is proper and user-friendly
--  Application is responsive across different screen sizes
--  All user roles (standard, problem, error, visual) behave as expected
+| # | Objective | Status |
+|:---|:---|:---|
+| 1 | All login functionalities work as expected |  Pass |
+| 2 | UI elements are displayed correctly | Pass |
+| 3 | Error handling is proper and user-friendly |  Warning |
+| 4 | Application is responsive across different screen sizes |  Pass |
+| 5 | All user roles (standard, problem, error, visual) behave as expected |  Warning |
 
 ---
 
 ##  Repository Structure
-
 ```
 SauceDemo/
 ├── README.md                              # Project Overview (This file)
@@ -65,50 +65,49 @@ SauceDemo/
     ├── Bug_Reports_Evidence/
     └── Full_Page_Screenshots/
 ```
+</details>
 
 ---
 
-##  Quick Project Status
+## Quick Project Status
 
-| Metric | Value | Status
+| Metric | Value | Status |
 |:---|:---|:---|
-| **Total Test Cases** | 45 |pass |
-| **Executed** | 45 | pass |
-| **Passed** | 45 | pass |
-| **Failed** | 0 | pass |
-| **Pass Rate** | 100% | pass |
-| **Bugs Found** | 7 | Warning |
-| **Critical Bugs** | 0 | pass |
-| **High Priority Bugs** | 2 | Warning |
-| **Medium Priority Bugs** | 3 | Warning |
-| **Low Priority Bugs** | 2 | Pass |
-| **Blocking Issues** | 0 | Pass|
-
-# Pass Rate Visualization
-
-```
-Overall Pass Rate: 100% (45/45)
-
- 100% Pass
- 0% Fail
- 0% Blocked
-
-
-# Module-wise Pass Rate
-
-```
-Login Module     ████████████████████████████████████████ 100% (14/14)
-Products Module  ████████████████████████████████████████ 100% (16/16)
-Cart Module      ████████████████████████████████████████ 100% (5/5)
-Checkout Module  ████████████████████████████████████████ 100% (7/7)
-UI Testing       ████████████████████████████████████████ 100% (3/3)
-```
+| **Total Test Cases** | 45 | Pass |
+| **Executed** | 45 |  Pass |
+| **Passed** | 45 |  Pass |
+| **Failed** | 0 |  Pass |
+| **Pass Rate** | 100% |  Pass |
+| **Bugs Found** | 7 |  Warning |
+| **Critical Bugs** | 0 |  Pass |
+| **High Priority Bugs** | 2 |  Warning |
+| **Medium Priority Bugs** | 3 |  Warning |
+| **Low Priority Bugs** | 2 |  Pass |
+| **Blocking Issues** | 0 |  Pass |
 
 ---
 
-#Test Execution Summary
+## Pass Rate Visualization
+Overall Pass Rate: 100% (45/45)
+100% Pass
+0% Fail
+0% Blocked
 
-# Module-wise Breakdown
+### Module-wise Pass Rate
+
+| Module | Pass Rate | Status |
+|:---|:---|:---|
+| Login Module | 100% (14/14) |  Pass |
+| Products Module | 100% (16/16) | Pass |
+| Cart Module | 100% (5/5) |  Pass |
+| Checkout Module | 100% (7/7) |  Pass |
+| UI Testing | 100% (3/3) | Pass |
+
+---
+
+## Test Execution Summary
+
+### Module-wise Breakdown
 
 | Module | Total | Executed | Passed | Failed | Pass % | Bugs |
 |:---|:---|:---|:---|:---|:---|:---|
@@ -119,7 +118,7 @@ UI Testing       █████████████████████
 | UI Testing | 3 | 3 | 3 | 0 | 100% | 2 |
 | **Total** | **45** | **45** | **45** | **0** | **100%** | **7** |
 
-# Priority-wise Distribution
+### Priority-wise Distribution
 
 | Priority | Total | Passed | Failed | Pass % |
 |:---|:---|:---|:---|:---|
@@ -129,7 +128,7 @@ UI Testing       █████████████████████
 
 ---
 
-# Bugs Summary
+##  Bugs Summary
 
 | Bug ID | Title | Severity | Priority | Status | Test Case ID |
 |:---|:---|:---|:---|:---|:---|
@@ -141,22 +140,61 @@ UI Testing       █████████████████████
 | BUG-006 | Distorted UI for Visual User | Low | Low | Open | TC_LOGIN_010 |
 | BUG-007 | Typographical Error in Test Data | Low | Low | Open | TC_LOGIN_006 |
 
-# Bug Statistics
+---
 
-```
+##  Bug Statistics
+
+### Severity Distribution
+
+| Severity | Count | Percentage |
+|:---|:---|:---|
+| Critical | 0 | 0% |
+| High | 0 | 0% |
+| Medium | 4 | 57% |
+| Low | 3 | 43% |
+| **Total** | **7** | **100%** |
+
+### Priority Distribution
+
+| Priority | Count | Percentage |
+|:---|:---|:---|
+| High | 2 | 29% |
+| Medium | 3 | 43% |
+| Low | 2 | 29% |
+| **Total** | **7** | **100%** |
+
+### Status Distribution
+
+| Status | Count | Percentage |
+|:---|:---|:---|
+| Open | 7 | 100% |
+| In Progress | 0 | 0% |
+| Fixed | 0 | 0% |
+| Closed | 0 | 0% |
+| **Total** | **7** | **100%** |
+
+### Module-wise Distribution
+
+| Module | Count |
+|:---|:---|
+| Login | 5 |
+| Login / Inventory | 2 |
+| **Total** | **7** |
+
+### Bug Statistics Visualization
 Priority Distribution:
-High   ████████████████████████████████ 2 (29%)
+High ████████████████████████████████ 2 (29%)
 Medium ██████████████████████████████████████████ 3 (43%)
-Low    ████████████████████████████████ 2 (29%)
+Low ████████████████████████████████ 2 (29%)
 
 Severity Distribution:
 Medium ██████████████████████████████████████████ 4 (57%)
-Low    ████████████████████████████████████ 3 (43%)
-```
+Low ████████████████████████████████████ 3 (43%)
+
 
 ---
 
-# UI Testing Summary
+##  UI Testing Summary
 
 | UI Test Area | Status | Issues Found |
 |:---|:---|:---|
@@ -167,10 +205,7 @@ Low    ████████████████████████�
 
 ---
 
-# Screenshots
-
-
-# Reports
+##  Reports
 
 | Report | Description | Link |
 |:---|:---|:---|
@@ -183,7 +218,7 @@ Low    ████████████████████████�
 
 ---
 
-#Test Environment
+##  Test Environment
 
 | Component | Details |
 |:---|:---|
@@ -197,7 +232,7 @@ Low    ████████████████████████�
 
 ---
 
-#Risks & Issues
+## Risks & Issues
 
 | Risk | Impact | Mitigation | Status |
 |:---|:---|:---|:---|
@@ -208,27 +243,33 @@ Low    ████████████████████████�
 
 ---
 
-# Recommendations
+##  Recommendations
 
-# High Priority (Must Fix)
+### High Priority (Must Fix)
 
-- [ ] **BUG-001**: Remove "Epic sadface:" prefix from invalid credentials error
-- [ ] **BUG-002**: Remove "Epic sadface:" prefix from empty credentials error
+| # | Bug ID | Recommendation |
+|:---|:---|:---|
+| 1 | BUG-001 | Remove "Epic sadface:" prefix from invalid credentials error |
+| 2 | BUG-002 | Remove "Epic sadface:" prefix from empty credentials error |
 
-# Medium Priority (Should Fix)
+### Medium Priority (Should Fix)
 
-- [ ] **BUG-003**: Remove "Epic sadface:" prefix from locked user error
-- [ ] **BUG-004**: Fix broken images for problem_user
-- [ ] **BUG-005**: Optimize performance for performance_glitch_user
+| # | Bug ID | Recommendation |
+|:---|:---|:---|
+| 3 | BUG-003 | Remove "Epic sadface:" prefix from locked user error |
+| 4 | BUG-004 | Fix broken images for problem_user |
+| 5 | BUG-005 | Optimize performance for performance_glitch_user |
 
-# Low Priority (Nice to Have)
+### Low Priority (Nice to Have)
 
-- [ ] **BUG-006**: Fix UI distortion for visual_user
-- [ ] **BUG-007**: Fix typo in test data
+| # | Bug ID | Recommendation |
+|:---|:---|:---|
+| 6 | BUG-006 | Fix UI distortion for visual_user |
+| 7 | BUG-007 | Fix typo in test data |
 
 ---
 
-# Team Members
+##  Team Members
 
 | Role | Name |
 |:---|:---|
@@ -236,33 +277,35 @@ Low    ████████████████████████�
 
 ---
 
-# Timeline
+##  Timeline
 
 | Phase | Start Date | End Date | Status |
 |:---|:---|:---|:---|
-| Test Planning | July 13, 2026 | July 13, 2026 |  Completed |
-| Test Case Creation | July 13, 2026 | July 14, 2026 |  Completed |
-| Test Execution | July 14, 2026 | July 15, 2026 |  Completed |
-| Bug Reporting | July 16, 2026 | July 16, 2026 |  Completed |
-| UI Testing | July 14, 2026 | July 15, 2026 |  Completed |
-| Report Generation | July 16, 2026 | July 16, 2026 |  Completed |
+| Test Planning | July 13, 2026 | July 13, 2026 | ✅ Completed |
+| Test Case Creation | July 13, 2026 | July 14, 2026 | ✅ Completed |
+| Test Execution | July 14, 2026 | July 15, 2026 | ✅ Completed |
+| Bug Reporting | July 16, 2026 | July 16, 2026 | ✅ Completed |
+| UI Testing | July 14, 2026 | July 15, 2026 | ✅ Completed |
+| Report Generation | July 16, 2026 | July 16, 2026 | ✅ Completed |
 
 ---
 
 ##  Quick Links
 
-- [Application](https://www.saucedemo.com/)
-- [Test Plan](./Test_Plan/Test_Plan.md)
-- [Test Scenarios](./Test_Scenarios/Test_Scenarios.md)
-- [Test Cases](./Test_Cases/SauceDemo_TestCases.xlsx)
-- [Bug Reports](./Bug_Reports/Bug_Report.xlsx)
-- [Execution Report](./Test_Execution_Report/Execution_Report.xlsx)
-- [Screenshots](./Screenshots/)
-- [UI Testing](./UI_Testing/)
+| Link | URL |
+|:---|:---|
+| Application | [https://www.saucedemo.com/](https://www.saucedemo.com/) |
+| Test Plan | [./Test_Plan/Test_Plan.md](./Test_Plan/Test_Plan.md) |
+| Test Scenarios | [./Test_Scenarios/Test_Scenarios.md](./Test_Scenarios/Test_Scenarios.md) |
+| Test Cases | [./Test_Cases/SauceDemo_TestCases.xlsx](./Test_Cases/SauceDemo_TestCases.xlsx) |
+| Bug Reports | [./Bug_Reports/Bug_Report.xlsx](./Bug_Reports/Bug_Report.xlsx) |
+| Execution Report | [./Test_Execution_Report/Execution_Report.xlsx](./Test_Execution_Report/Execution_Report.xlsx) |
+| Screenshots | [./Screenshots/](./Screenshots/) |
+| UI Testing | [./UI_Testing/](./UI_Testing/) |
 
 ---
 
-# License
+## License
 
 This project is for educational and testing purposes only.
 
@@ -272,37 +315,18 @@ This project is for educational and testing purposes only.
 
 | Name | Role | Contact |
 |:---|:---|:---|
-| Rojina Adhikari | QA Tester| [rojinatech03@gmail.com] |
-
----
-
-**Last Updated:** July 17, 2026  
-**Version:** 1.0  
-**Status:**  **PASSED**
+| Rojina Adhikari | QA Tester | rojinatech03@gmail.com |
 
 ---
 
 ##  Final Status
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                      PROJECT STATUS                             │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│    Test execution completed                                  │
-│   All 45 test cases passed                                  │
-│    7 bugs identified (0 critical, 2 high priority)         │
-│    No blocking issues found                                  │
-│    UI issues identified                                     │
-│                                                                 │
-│   Status: PASSED                                            │
-│                                                                 │
-│   Application is FUNCTIONALLY STABLE but has UI/UX issues     │
-│   Recommended to fix high-priority bugs before release        │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+| Aspect | Status |
+|:---|:---|
+| **Functional Testing** | Passed |
+| **UI Testing** |  Passed (with issues) |
+| **Bug Status** |  7 Open Bugs |
+| **Blocking Issues** | None |
+| **Overall Status** |  **PASSED** |
 
----
-
-**Thank you for reviewing this project!** 
+  
