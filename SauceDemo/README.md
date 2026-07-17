@@ -65,9 +65,6 @@ SauceDemo/
     ├── Bug_Reports_Evidence/
     └── Full_Page_Screenshots/
 ```
-</details>
-
----
 
 ## Quick Project Status
 
